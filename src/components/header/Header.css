@@ -1,0 +1,11 @@
+.mobile-menu {
+  @apply w-full px-8 border-y py-4 text-lg bg-gray-800 hover:bg-gray-700 text-white;
+}
+
+.desk-menu {
+  @apply lg:px-2 lg:border-none lg:py-0 lg:text-sm lg:bg-inherit lg:hover:bg-inherit lg:text-black lg:font-medium lg:hover:text-orange-600 transition;
+}
+
+/* .header__button {
+  @apply 
+} */
