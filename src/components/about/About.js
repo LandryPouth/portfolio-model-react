@@ -1,8 +1,10 @@
 import about from './ressource/about.png'
 import aboutIconeOne from './ressource/aboutIconOne.png'
 import aboutIconeTwo from './ressource/aboutIconTwo.png'
-import check from './ressource/check.svg'
-import titleIcone from '../@TITLE__IMG/bannerImg.png'
+import CheckedList from './CheckedList'
+import DefaultButton from '../@DEFAULT_COMPONENT/DefaultButton'
+import LittleTitle from '../@DEFAULT_COMPONENT/TITLES/LittleTitle'
+import BigTitle from '../@DEFAULT_COMPONENT/TITLES/BigTitle'
 
 function About() {
     return (
@@ -11,12 +13,8 @@ function About() {
                 <img src={about} alt="about-image" className='hover:opacity-90 transition' />
             </div>
             <div className='md:basis-1/2 md:mt-16'>
-                <h4>
-                    <img src={titleIcone} alt="" className='inline mr-2' />
-                    <span>About Me</span>
-                </h4>
-
-                <h1 className='text-4xl lg:text-5xl font-bold pt-3 pb-7 lg:leading-tight w-11/12 md:w-4/5'>I Can Design Anything You Want</h1>
+                <LittleTitle>About Me</LittleTitle>
+                <BigTitle>I Can Design Anything You Want</BigTitle>
 
                 <p className='text-zinc-600 leading-6'>
                     Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.
@@ -27,13 +25,14 @@ function About() {
                         <h3 className='flex mb-4 md:mb-0'><img src={aboutIconeOne} alt="" /><div className='ml-3 font-bold text-lg'><span className='block text-orange-500'>0+</span>Complete Project</div></h3>
                         <h3 className='flex mb-4 md:mb-0'><img src={aboutIconeTwo} alt="" /><div className='ml-3 font-bold text-lg'><span className='block text-orange-500'>0+</span>Year of experience</div></h3> 
                     </div>
-                    <div className='md:flex justify-between '>
-                        <span className='block mt-4 w-full flex-wrap'>
-                            <img src={check} alt="" className='w-4 inline mr-2' />
-                            Work simple and cline design
-                        </span>
+                    <div className='md:flex justify-between flex-wrap '>
+                        <CheckedList>Work simple and cline design</CheckedList>
+                        <CheckedList>Web Design Full stack</CheckedList>
+                        <CheckedList>New idea and user friendly design</CheckedList>
+                        <CheckedList>Unlimited Revisions</CheckedList>
                     </div>
                 </div>
+                <DefaultButton>Download My CV</DefaultButton >
             </div>
         </section>
     )
