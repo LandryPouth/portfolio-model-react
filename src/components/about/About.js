@@ -8,13 +8,15 @@ import BigTitle from '../@DEFAULT_COMPONENT/TITLES/BigTitle'
 
 function About() {
     return (
-        <section className='py-28 px-3 md:flex md:px-2 lg:p-32'>
+        <section className='pt-24 pb-10 px-3 md:flex md:px-2 lg:p-32'>
             <div className='mb-10 lg:mb-0 md:basis-1/2'>
-                <img src={about} alt="about-image" className='hover:opacity-90 transition' />
+                <img src={about} alt="about-image" className='hover:brightness-50 transition' />
             </div>
             <div className='md:basis-1/2 md:mt-16'>
-                <LittleTitle>About Me</LittleTitle>
-                <BigTitle>I Can Design Anything You Want</BigTitle>
+                <div className='w-11/12'>
+                    <LittleTitle>About Me</LittleTitle>
+                    <BigTitle>I Can Design Anything You Want</BigTitle>
+                </div>
 
                 <p className='text-zinc-600 leading-6'>
                     Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.
