@@ -11,6 +11,19 @@ import serviceEight from './ressource/serviceEight.png'
 import ServiceCard from "./ServiceCard";
 
 function Service() {
+    const title = [
+        'UI/UX Design',
+        'Mobile App',
+        'Graphic Design',
+        'Web Developer',
+        'SEO Optimisation',
+        'WordPress Developer',
+        'App Development',
+        'Business Strategy',
+    ]
+
+    const text = 'Hen our power of choice is untrammelled and when nothing prevents our being able'
+
     return (
         <section className="pb-16 md:pb-24 px-3 lg:px-32">
             <div className="text-center pb-6">
@@ -22,43 +35,43 @@ function Service() {
                 
                 <ServiceCard
                     src={serviceOne} 
-                    title = {'UI/UX Design'}
-                    txt = {'Hen our power of choice is untrammelled and when nothing prevents our being able'}
+                    title = {title[0]}
+                    txt = {text}
                 />
                 <ServiceCard
                     src={serviceTwo} 
-                    title = {'Mobile App'}
-                    txt = {'Hen our power of choice is untrammelled and when nothing prevents our being able'}
+                    title = {title[1]}
+                    txt = {text}
                 />
                 <ServiceCard
                     src={serviceThree} 
-                    title = {'Graphic Design'}
-                    txt = {'Hen our power of choice is untrammelled and when nothing prevents our being able'}
+                    title = {title[2]}
+                    txt = {text}
                 />
                 <ServiceCard
                     src={serviceFour} 
-                    title = {'Web Developer'}
-                    txt = {'Hen our power of choice is untrammelled and when nothing prevents our being able'}
+                    title = {title[3]}
+                    txt = {text}
                 />
                 <ServiceCard
                     src={serviceFive} 
-                    title = {'SEO Optimisation'}
-                    txt = {'Hen our power of choice is untrammelled and when nothing prevents our being able'}
+                    title = {title[4]}
+                    txt = {text}
                 />
                 <ServiceCard
                     src={serviceSix} 
-                    title = {'WordPress Developer'}
-                    txt = {'Hen our power of choice is untrammelled and when nothing prevents our being able'}
+                    title = {title[5]}
+                    txt = {text}
                 />
                 <ServiceCard
                     src={serviceSeven} 
-                    title = {'App Development'}
-                    txt = {'Hen our power of choice is untrammelled and when nothing prevents our being able'}
+                    title = {title[6]}
+                    txt = {text}
                 />
                 <ServiceCard
                     src={serviceEight}
-                    title = {'Business Strategy'}
-                    txt = {'Hen our power of choice is untrammelled and when nothing prevents our being able'}
+                    title = {title[7]}
+                    txt = {text}
                 />
 
             </div>
