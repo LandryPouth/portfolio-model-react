@@ -5,15 +5,15 @@ import ResumeAside from "./ResumeAside"
 
 function Resume() {
     const card = [
-        {card1Title: 'BSc in Computer Science', card1Desc: 'University of ULAV (2018 - 2022)'},
-        {card2Title: 'AS - Science & Information', card2Desc: 'University of ULAV (2016 - 2018)'},
-        {card3Title: 'Secondary School Education', card3Desc: 'Kindergarten (2006 - 2016)'},
-        {card4Title: 'UI/UX Design',},
-        {card5Title: 'Web Developer',},
-        {card6Title: 'App Development',},
-        {card7Title: 'Web Developer & Trainer', card7Desc: 'Brac Developer Team - (2012 - 2016)'},
-        {card8Title: 'Front-end Developer', card8Desc: 'Brane - (2020 - 2011)'},
-        {card9Title: 'UI/UX Designer', card9Desc: 'Google Out Tech - (2017 - Present)'},
+        {cardTitle: 'BSc in Computer Science', cardDesc: 'University of ULAV (2018 - 2022)'},
+        {cardTitle: 'AS - Science & Information', cardDesc: 'University of ULAV (2016 - 2018)'},
+        {cardTitle: 'Secondary School Education', cardDesc: 'Kindergarten (2006 - 2016)'},
+        {cardTitle: 'UI/UX Design',},
+        {cardTitle: 'Web Developer',},
+        {cardTitle: 'App Development',},
+        {cardTitle: 'Web Developer & Trainer', cardDesc: 'Brac Developer Team - (2012 - 2016)'},
+        {cardTitle: 'Front-end Developer', cardDesc: 'Brane - (2020 - 2011)'},
+        {cardTitle: 'UI/UX Designer', cardDesc: 'Google Out Tech - (2017 - Present)'},
     ]
 
     const text = 'Pomnis voluptas assumenda est, omnis dolor repellendus.'
@@ -34,23 +34,23 @@ function Resume() {
 
                 <main>
                     <div className="bg-white rounded px-6 py-8 mb-6 lg:flex justify-between">
-                        <ResumeCard title ={card[0].card1Title} description={card[0].card1Desc} text={text} />
-                        <ResumeCard title ={card[1].card2Title} description={card[1].card2Desc} text={text} />
-                        <ResumeCard title ={card[2].card3Title} description={card[2].card3Desc} text={text} />
+                        <ResumeCard title ={card[0].cardTitle} description={card[0].cardDesc} text={text} />
+                        <ResumeCard title ={card[1].cardTitle} description={card[1].cardDesc} text={text} />
+                        <ResumeCard title ={card[2].cardTitle} description={card[2].cardDesc} text={text} />
                     </div>
 
                     <div className="bg-white rounded px-6 py-4 mb-6 lg:flex justify-between">
-                        <ResumeNumber title ={card[3].card4Title}
+                        <ResumeNumber title ={card[3].cardTitle}
                             text1={'Figma'} value1={'90%'}
                             text2={'Adobe XD'} value2={'85%'}
                             text3={'Photoshop'} value3={'80%'}
                         />
-                        <ResumeNumber title ={card[4].card5Title}
+                        <ResumeNumber title ={card[4].cardTitle}
                             text1={'WordPress'} value1={'90%'}
                             text2={'Mockplus'} value2={'85%'}
                             text3={'Weebly'} value3={'80%'}
                         />                    
-                        <ResumeNumber title ={card[5].card6Title}
+                        <ResumeNumber title ={card[5].cardTitle}
                             text1={'Quixy'} value1={'92%'}
                             text2={'AppyPie'} value2={'87%'}
                             text3={'iBuildApp'} value3={'82%'}
@@ -58,9 +58,9 @@ function Resume() {
                     </div>
 
                     <div className="bg-white rounded px-6 py-8 mb-6 lg:flex justify-between">
-                        <ResumeCard title ={card[6].card7Title} description={card[6].card7Desc} text={text} />
-                        <ResumeCard title ={card[7].card8Title} description={card[7].card8Desc} text={text} />
-                        <ResumeCard title ={card[8].card9Title} description={card[8].card9Desc} text={text} />
+                        <ResumeCard title ={card[6].cardTitle} description={card[6].cardDesc} text={text} />
+                        <ResumeCard title ={card[7].cardTitle} description={card[7].cardDesc} text={text} />
+                        <ResumeCard title ={card[8].cardTitle} description={card[8].cardDesc} text={text} />
                     </div>
                 </main>
             </div>
