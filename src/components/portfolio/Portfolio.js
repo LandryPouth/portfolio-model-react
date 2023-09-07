@@ -16,7 +16,7 @@ function Portfolio() {
     const desc = 'The best way to impress your web'
 
     return (
-        <section className="py-8 lg:py-16 px-3 md:px-12 lg:px-32">
+        <section className="py-10 lg:py-24 px-3 md:px-12 lg:px-32">
             <div className="text-center pb-6 px-7 leading-7">
                 <LittleTitle>My Portfolio</LittleTitle>
                 <BigTitle>VISIT MY PORTFOLIO</BigTitle>
