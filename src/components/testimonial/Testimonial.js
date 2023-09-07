@@ -16,7 +16,7 @@ function Testimonial() {
     const text = ` “Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature fr45 BC, mak it over 2000 years old.`
 
     return (
-        <section className="py-20 px-3 lg:px-32">
+        <section className="pt-20 pb-16 px-3 lg:px-32">
             <div className="text-center pb-6 px-7 leading-7">
                 <LittleTitle>Testimonial</LittleTitle>
                 <BigTitle>CLIENT FEEDBACK</BigTitle>

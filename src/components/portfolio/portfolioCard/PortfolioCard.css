@@ -1,0 +1,28 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 32%;
+        height: 360px;
+    }
+
+    .container:last-child {
+        width: 66%;
+    }
+}
+
+.container {
+    @apply before:block before:w-full before:h-0 before:rounded-lg before:bg-zinc-900/50 before:absolute;
+}
+
+.container:hover {
+    @apply before:h-full before:transition-all before:delay-100 before:ease-out before:duration-200;
+}
+
+.container:hover .content {
+    @apply top-3/4 -translate-y-2/4 opacity-100 transition delay-100 ease-out duration-200;
+}
