@@ -9,6 +9,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import Partners from './components/partners/Partners';
 import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Partners />
       <Blog />
       <Contact />
+      <Footer />
     </>
   );
 }

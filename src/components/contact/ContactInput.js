@@ -1,6 +1,6 @@
 function ContactInput({...attributes}) {
     return (
-        <input {...attributes} className="border border-orange-200 w-full md:w-1/2 first:mr-4 mb-5 p-5 outline-0 rounded-lg placeholder:text-zinc-500" type="text" />
+        <input {...attributes} className="border border-orange-200 w-full md:w-1/2 md:first:mr-4 mb-5 p-5 outline-0 rounded-lg placeholder:text-zinc-500" type="text" />
     )
 }
 
