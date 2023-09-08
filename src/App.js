@@ -8,6 +8,7 @@ import Testimonial from './components/testimonial/Testimonial';
 import Portfolio from './components/portfolio/Portfolio';
 import Partners from './components/partners/Partners';
 import Blog from './components/blog/Blog';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Portfolio />
       <Partners />
       <Blog />
+      <Contact />
     </>
   );
 }

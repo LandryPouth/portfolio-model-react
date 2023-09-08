@@ -13,7 +13,7 @@ function Blog() {
     ]
 
     return (
-        <section className="pb-28 px-3 lg:px-32">
+        <section className="pb-20 px-3 lg:px-32">
             <div className="text-center py-6 px-7 leading-7">
                 <LittleTitle>My Blog</LittleTitle>
                 <BigTitle>LATEST BLOG</BigTitle>
