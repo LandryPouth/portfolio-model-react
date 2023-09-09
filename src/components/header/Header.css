@@ -3,9 +3,5 @@
 }
 
 .desk-menu {
-  @apply lg:px-2 lg:border-none lg:py-0 lg:text-sm lg:bg-inherit lg:hover:bg-inherit lg:text-black lg:font-medium lg:hover:text-orange-600 transition;
+  @apply md:px-1 lg:px-4 md:border-none md:py-0 md:text-base md:font-normal md:bg-inherit md:hover:bg-inherit md:text-zinc-800 md:hover:text-orange-600 transition md:delay-100;
 }
-
-/* .header__button {
-  @apply 
-} */
