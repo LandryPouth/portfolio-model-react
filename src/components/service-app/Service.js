@@ -31,7 +31,7 @@ function Service() {
                 <BigTitle>SERVICES I OFFER</BigTitle>
             </div>
 
-            <div className="w-full flex flex-col md:flex-row flex-wrap md:justify-between lg:grid lg:grid-cols-4 lg:gap-5">
+            <div className="w-full flex flex-col md:flex-row flex-wrap md:justify-between md:px-20 lg:px-0 lg:grid lg:grid-cols-4 lg:gap-5">
                 
                 <ServiceCard
                     src={serviceOne} 

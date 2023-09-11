@@ -22,7 +22,7 @@ function Testimonial() {
                 <BigTitle>CLIENT FEEDBACK</BigTitle>
             </div>
 
-            <div className="flex gap-x-4 overflow-hidden">
+            <div className="flex overflow-hidden">
                 <TestimonialCard  
                     img={testimonialOne} 
                     title={testimonial[0].title} desc={testimonial[0].desc} 

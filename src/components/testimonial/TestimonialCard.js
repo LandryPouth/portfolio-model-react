@@ -1,6 +1,6 @@
 function TestimonialCard({img, title, desc, text}) {
     return (
-        <div className="w-full md:w-1/2 lg:w-1/3 bg-yellow-50 hover:bg-yellow-100 px-7 py-10 shrink-0 rounded-xl">
+        <div className="w-full md:w-[49%] lg:w-[32%] mr-4 bg-yellow-50 hover:bg-yellow-100 px-7 py-10 shrink-0 rounded-xl">
             <div className="flex items-center">
                 <img src={img} alt="img" />
                 <div className="ml-5 leading-8">

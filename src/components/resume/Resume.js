@@ -32,7 +32,7 @@ function Resume() {
                     <ResumeAside text={'Experience'}/>
                 </div>
 
-                <main>
+                <main className="md:px-20 lg:px-0">
                     <div className="bg-white rounded px-6 py-8 mb-6 lg:flex justify-between">
                         <ResumeCard title ={card[0].cardTitle} description={card[0].cardDesc} text={text} />
                         <ResumeCard title ={card[1].cardTitle} description={card[1].cardDesc} text={text} />
