@@ -5,3 +5,7 @@
 .desk-menu {
   @apply md:px-1 lg:px-4 md:border-none md:py-0 md:text-base md:font-normal md:bg-inherit md:hover:bg-inherit md:text-zinc-800 md:hover:text-orange-600 transition md:delay-100;
 }
+
+.mobile {
+  display: flex;
+}

@@ -19,7 +19,7 @@ function Resume() {
     const text = 'Pomnis voluptas assumenda est, omnis dolor repellendus.'
 
     return (
-        <section className="bg-yellow-100 py-20 px-3 lg:px-32">
+        <section id='resume' className="bg-yellow-100 py-20 px-3 lg:px-32">
             <div className="text-center pb-6 px-7 leading-7">
                 <LittleTitle>My Resume</LittleTitle>
                 <BigTitle>10+ YEARS OF EXPERIENCE</BigTitle>

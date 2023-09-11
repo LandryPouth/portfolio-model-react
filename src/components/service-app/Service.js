@@ -25,7 +25,7 @@ function Service() {
     const text = 'Hen our power of choice is untrammelled and when nothing prevents our being able'
 
     return (
-        <section className="pb-16 md:pb-24 px-3 lg:px-32">
+        <section id='service' className="pb-16 md:pb-24 px-3 lg:px-32">
             <div className="text-center pb-6">
                 <LittleTitle>My Service</LittleTitle>
                 <BigTitle>SERVICES I OFFER</BigTitle>

@@ -3,7 +3,7 @@ import { BiRightArrowAlt } from "react-icons/bi"
 function BlogCard({ image, date, title, link, ...attribute }) {
     return (
         <div className="w-full md:max-w-md rounded-lg border border-orange-300 mb-7 md:mb-0">
-            <img src={image} alt="#" className="w-full object-fill" />
+            <img src={image} alt="#" className="w-full object-fill hover:brightness-50 transition duration-500" />
             <div className="p-6">
                 <h6 className="mb-5 text-md text-zinc-600">{date}</h6>
                 <h4 className="font-bold text-xl mb-5 hover:text-orange-500 transition delay-100">{title}</h4>

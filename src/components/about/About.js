@@ -8,9 +8,9 @@ import BigTitle from '../@DEFAULT_COMPONENT/TITLES/BigTitle'
 
 function About() {
     return (
-        <section className='pt-24 pb-10 px-3 lg:px-0 lg:grid lg:grid-cols-12 md:mx-20 lg:mx-0'>
+        <section id='about' className='pt-24 pb-10 px-3 lg:px-0 lg:grid lg:grid-cols-12 md:mx-20 lg:mx-0'>
             <div></div>
-            <div className='mb-10 lg:mb-0 lg:col-span-4 md:mx-10 lg:mx-0'>
+            <div className='mb-10 flex justify-center lg:mb-0 lg:col-span-4'>
                 <img src={about} alt="about-image" className='hover:brightness-50 transition' />
             </div>
             <div className='md:mt-16 lg:col-span-6 lg:ml-16'>

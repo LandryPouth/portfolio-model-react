@@ -10,7 +10,7 @@ function Hero() {
         <section className='bg-yellow-100 relative lg:grid lg:grid-cols-12'>
             <div></div>
             <div className='lg:order-last lg:col-span-10 lg:flex lg:flex-row-reverse mx-auto'>
-                <div className='pb-8 lg:pb-0 relative lg:-right-16 md:px-44 lg:px-0 shrink-0'>
+                <div className='pb-8 lg:pb-0 relative lg:-right-16 flex justify-center lg:px-0 shrink-0'>
                     <img src={fontImg} alt="font banner_image" className='absolute top-14 right-7 w-11/12 md:w-9/12 md:top-10 md:left-20 md:right-0' />
                     <img src={image} alt="banner_image" width={600} className='relative z-50 ' />
                 </div>

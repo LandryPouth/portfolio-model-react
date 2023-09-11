@@ -6,7 +6,7 @@ import { FaLocationDot, FaPhoneVolume, FaEnvelope } from "react-icons/fa6"
 
 function Contact() {
     return (
-        <section className="pb-20 px-3 md:px-24 lg:px-32">
+        <section id='contact' className="pb-20 px-3 md:px-24 lg:px-32">
             <div className="text-center py-6 px-7 leading-7">
                 <LittleTitle>My Contact</LittleTitle>
                 <BigTitle>I WANT TO HEAR FROM YOU</BigTitle>
