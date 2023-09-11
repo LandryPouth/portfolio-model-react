@@ -1,9 +1,9 @@
-import check from './ressource/check.svg'
+import { FaRegSquareCheck } from 'react-icons/fa6'
 
 function CheckedList({ children }) {
     return (
-        <span className='block mt-4 md:w-max'>
-            <img src={check} alt="" className='w-4 inline mr-2' />
+        <span className='flex items-center mt-4 md:w-max'>
+            <FaRegSquareCheck className='text-orange-500 mr-3' />
             {children}
         </span>
     )
